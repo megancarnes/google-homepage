@@ -1,12 +1,30 @@
-
-
 html {
     background-color: white;
+    font-family: arial, sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.leftnav {
+    float: left;
+}
+
+.rightnav {
+    text-align: right;
+}
+
+.leftnav a, .rightnav a {
+    color: dimgray;
+    padding: 10px;
+    font-size: 12px;
 }
 
 main {
     width: 40%;
-    margin-top: 225px;
+    margin-top: 150px;
     margin-bottom: 375px;
     margin-left: 30%;
     margin-right: 30%;
@@ -36,3 +54,4 @@ button {
     height: 35px;
     font-size: 12px;
 }
+
