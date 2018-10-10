@@ -9,7 +9,7 @@ header {
 }
 
 .leftnav {
-    float: left;
+    text-align: left;
 }
 
 .rightnav {
@@ -20,6 +20,7 @@ header {
     color: dimgray;
     padding: 10px;
     font-size: 12px;
+    text-decoration: none;
 }
 
 main {
