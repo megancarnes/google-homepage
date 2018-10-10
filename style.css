@@ -8,6 +8,17 @@ header {
     grid-template-columns: 50% 50%;
 }
 
+footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: gainsboro;
+    height: 55px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 .leftnav {
     text-align: left;
 }
@@ -26,7 +37,7 @@ header {
 main {
     width: 40%;
     margin-top: 150px;
-    margin-bottom: 375px;
+    margin-bottom: 250px;
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
